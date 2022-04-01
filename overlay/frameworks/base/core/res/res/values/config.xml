@@ -494,7 +494,7 @@
     <bool name="config_supportDoubleTapWake">true</bool>
 
     <!-- Height of the status bar in portrait -->
-    <dimen name="status_bar_height">98.0px</dimen>
+    <dimen name="status_bar_height_portrait">98.0px</dimen>
 
     <!-- List supported color modes. -->
     <integer-array name="config_availableColorModes">
