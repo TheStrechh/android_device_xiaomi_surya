@@ -33,7 +33,7 @@
 /sys/devices/virtual/fastrpc/adsprpc-smd/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
 
 # Persist subsystem
-/mnt/vendor/persist/subsys(/.*)?                                  u:object_r:persist_subsys_file:s0
+/mnt/vendor/persist/subsys(/.*)?				     u:object_r:persist_subsys_file:s0
 
 # HALs
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.surya u:object_r:hal_fingerprint_default_exec:s0
@@ -49,4 +49,7 @@
 /data/vendor/thermal(/.*)?                                           u:object_r:thermal_data_file:s0
  
 # SPI IR
-/dev/spidev0.1                                                    u:object_r:spidev_device:s0
+/dev/spidev0.1							     u:object_r:spidev_device:s0
+
+# FPS Info
+/sys/class/drm/sde-crtc-0/measured_fps                               u:object_r:vendor_sysfs_graphics:s0
