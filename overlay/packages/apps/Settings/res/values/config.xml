@@ -19,4 +19,7 @@
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
 
+    <!-- String for spark maintainer -->
+    <string name="spark_maintainer">Carlos Arriaga</string>
+
 </resources>
