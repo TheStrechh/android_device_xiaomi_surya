@@ -16,6 +16,7 @@
 
 # Broken rules
 BUILD_BROKEN_DUP_RULES := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 BOARD_VENDOR := xiaomi
 
@@ -117,6 +118,7 @@ TARGET_KERNEL_APPEND_DTB := false
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_MKBOOTIMG_ARGS := --header_version 2
 
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := surya_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/surya
 
